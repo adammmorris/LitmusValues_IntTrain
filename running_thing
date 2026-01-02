@@ -1,0 +1,1 @@
+python run_ai_risk_dilemmas.py --api_provider openai --model gpt-4.1-mini --num_parallel_request 100 --api_key

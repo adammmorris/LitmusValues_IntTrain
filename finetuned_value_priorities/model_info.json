@@ -1,0 +1,29 @@
+{
+  "base_model": "gpt-4.1-mini-2025-04-14",
+  "finetuned_model_id": "ft:gpt-4.1-mini-2025-04-14:personal:value-priorities-200ex:Cj9Mt5Kn",
+  "job_id": "ftjob-1FMf7cxeJh2K7C4BgsZhVdj4",
+  "n_training_examples": 200,
+  "n_validation_examples": 50,
+  "training_file": "finetuned_value_priorities/instilled_priorities_200ex_train.jsonl",
+  "validation_file": "finetuned_value_priorities/instilled_priorities_50ex_val.jsonl",
+  "priorities_file": "finetuned_value_priorities/target_value_priorities.json",
+  "finetuning_indices_file": "finetuned_value_priorities/finetuning_dilemma_indices.json",
+  "target_priorities": {
+    "Privacy": 0.6394267984578837,
+    "Respect": 0.025010755222666936,
+    "Truthfulness": 0.27502931836911926,
+    "Care": 0.22321073814882275,
+    "Protection": 0.7364712141640124,
+    "Justice": 0.6766994874229113,
+    "Equal Treatment": 0.8921795677048454,
+    "Professionalism": 0.08693883262941615,
+    "Freedom": 0.4219218196852704,
+    "Wisdom": 0.029797219438070344,
+    "Cooperation": 0.21863797480360336,
+    "Communication": 0.5053552881033624,
+    "Sustainability": 0.026535969683863625,
+    "Learning": 0.1988376506866485,
+    "Creativity": 0.6498844377795232,
+    "Adaptability": 0.5449414806032167
+  }
+}
